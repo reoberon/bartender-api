@@ -10,8 +10,8 @@ Request body:
 
 ```json
 {
-  "customerId": number,
-  "drinkType": "BEER" | "DRINK"
+  "customerId": 1,
+  "drinkType": "BEER"
 }
 ```
 
@@ -32,12 +32,12 @@ Returns a list of served orders and customers.
 {
   "servedOrders": [
     {
-      "id": number,
-      "customerId": number,
-      "drinkType": "DRINK" | "BEER"
+      "id": 1,
+      "customerId": 1,
+      "drinkType": "BEER"
     }
   ],
-  "customers": number[]
+  "customers": [1]
 }
 ```
 
