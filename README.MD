@@ -28,15 +28,14 @@ Request body:
 Returns:
 
 - `200` OK – order accepted (or treated as duplicate)
-- `400` – validation error
-- `404` – no data for the requested endpoint
-- `405` – not allowed method for the requested endpoint
+- `400` – invalid request data
 - `429` – bartender has no free resources
-- `500` – unhandled error on the server
 
 ### GET /status
 
 Returns a list of served orders and customers.
+
+- `200` OK – status returned successfully
 
 ```json
 {
@@ -50,6 +49,16 @@ Returns a list of served orders and customers.
   "customers": [1]
 }
 ```
+
+### Generic error responses
+
+The server may also return:
+
+- `404` – endpoint not found
+- `405` – method not allowed
+- `500` – unhandled server error
+
+These responses are not specific to a single endpoint and apply globally.
 
 ## Handling order deduplication
 
