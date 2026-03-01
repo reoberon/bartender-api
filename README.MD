@@ -79,7 +79,8 @@ Set it to `0` to disable post-completion deduplication.
 
 Time to prepare one drink.
 Default: `5` seconds.
-Can be set via `.env` file or as a startup parameter.
+Can be set via `.env` file or as a startup parameter:\
+`npm start <SECONDS_PER_DRINK>`
 
 ### SECONDS_TO_DEDUP_ORDER
 
