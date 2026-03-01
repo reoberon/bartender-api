@@ -1,0 +1,15 @@
+{
+  "name": "bartender",
+  "version": "1.0.0",
+  "description": "Bartender API serving Beer or Drink",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --env-file=.env server.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "marius norkus",
+  "license": "ISC",
+  "packageManager": "pnpm@10.30.1"
+}
