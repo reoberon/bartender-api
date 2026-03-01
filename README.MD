@@ -1,6 +1,6 @@
 # Bartender Server
 
-Simple HTTP server that accepts drink orders and prepares them and whites logs about incoming requests.
+Simple HTTP server that accepts drink orders and prepares them and writes logs about incoming requests.
 
 ## Endpoints
 
