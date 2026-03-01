@@ -2,6 +2,16 @@
 
 Simple HTTP server that accepts drink orders and prepares them and writes logs about incoming requests.
 
+## Starting the server
+
+_No external dependencies are required._
+
+```
+npm start
+```
+
+`npm run dev` runs the same command (alias for start)
+
 ## Endpoints
 
 ### POST /order
